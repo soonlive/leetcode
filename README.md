@@ -6,4 +6,6 @@
 
 [68. Text Justification](https://github.com/soonlive/blog/issues/1)
 
+[65. Valid Number](https://github.com/soonlive/blog/issues/5)
+
 [149. Max Points on a Line](https://github.com/soonlive/blog/issues/2)
