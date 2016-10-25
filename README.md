@@ -9,12 +9,14 @@
 [149. Max Points on a Line](https://github.com/soonlive/blog/issues/2)
 
 
-
 ## Medium
 
 [54. Spiral Matrix](https://github.com/soonlive/blog/issues/3)
 
 [59. Spiral Matrix II](https://github.com/soonlive/blog/issues/4)
+
+[74. Search a 2D Matrix](https://github.com/soonlive/blog/issues/8)
+
 
 ## Easy
 
