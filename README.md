@@ -24,5 +24,5 @@
 
 [125. Valid Palindrome](https://github.com/soonlive/leetcode/issues/7)
 
-
+[169. Majority Element](https://github.com/soonlive/blog/issues/9)
 
