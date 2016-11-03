@@ -17,6 +17,7 @@
 
 [74. Search a 2D Matrix](https://github.com/soonlive/blog/issues/8)
 
+[229. Majority Element II](https://github.com/soonlive/leetcode/issues/10)
 
 ## Easy
 
