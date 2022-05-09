@@ -1,20 +1,19 @@
 /**
- * dp[i]=min(dp(i-1),dp(i-1)+cost[i])
  * @param {number[]} cost
  * @return {number}
  */
-
 var minCostClimbingStairs = function(cost) {
-  let dp = [];
-  dp[0] = cost[0];
-  dp[1] = Math.min(cost[0],cost[1]);
-  for (let i = 2; i < cost.length; i++) {
-    dp[i]=Math.min(dp[i-1]+cost[i-1],dp[i-2]+cost[i])
+  let p1 = cost[0];
+  let p2 = cost[1];
+  let temp;
+  for(let i = 2;i<cost.length;++i){
+    temp = p2;
+    p2 = Math.min(p1, p2) + cost[i];
+    p1 = temp;
   }
-  return dp[cost.length-1];
 
+  return Math.min(p1, p2);
 };
 
-minCostClimbingStairs([10, 15, 20])
 
 module.exports = minCostClimbingStairs;
