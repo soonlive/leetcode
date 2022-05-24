@@ -8,7 +8,7 @@ var subsetsWithDup = function(nums) {
 
   nums.sort();
 
-  let backtrack = (ns, track, used, start) => {
+  let backtrack = (ns, track, start) => {
 
     res.push([...track])
 
@@ -18,14 +18,12 @@ var subsetsWithDup = function(nums) {
       }
       let n = ns[i];
       track.push(n);
-      used[i] = true;
-      backtrack(ns, track, used, i+1);
+      backtrack(ns, track, i+1);
       track.pop();
-      used[i] = false;
     }
   };
 
-  backtrack(nums, [], [], 0);
+  backtrack(nums, [], 0);
 
   return res;
 };
